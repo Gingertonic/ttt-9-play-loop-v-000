@@ -1,4 +1,4 @@
-require 'pry-byebug'
+require 'pry'
 
 # Helper Methods
 def display_board(board)
