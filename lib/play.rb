@@ -40,6 +40,9 @@ end
 
 # Define your play method below
 def play(board)
-  binding.pry
-  b = 'beth'
+  animals = ["cat", "dog", "tiger"]
+  animals.each do |ani|
+    binding.pry
+    puts ani + !
+  end
 end
