@@ -42,6 +42,5 @@ def play(board)
   animals = ["cat", "dog", "tiger"]
   animals.each do |ani|
     binding.pry
-    puts ani + !
   end
 end
