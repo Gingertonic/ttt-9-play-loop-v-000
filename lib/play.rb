@@ -1,3 +1,5 @@
+require 'pry-byebug'
+
 # Helper Methods
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -36,3 +38,13 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  counter = 0 
+  greeting = 'hi'
+  farewell = 'bye'
+  while counter < 10 
+    counter += 1 
+    greeting = "Hi #{counter}"
+    farewell = "Bye #{counter}"
+  end
+end
