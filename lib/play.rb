@@ -39,12 +39,5 @@ end
 
 # Define your play method below
 def play(board)
-  counter = 0 
-  greeting = 'hi'
-  farewell = 'bye'
-  while counter < 10 
-    counter += 1 
-    greeting = "Hi #{counter}"
-    farewell = "Bye #{counter}"
-  end
+
 end
